@@ -1,0 +1,95 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap');
+
+body{
+    background-color: hsl(217, 54%, 11%);
+}
+.main_container{
+    background-color: hsl(216, 50%, 16%);
+    width: 300px;
+    height:490px;
+    font-family: "Outfit", sans-serif;
+    margin:10% auto;
+    border-radius: 8px;
+}
+.main_image{
+    margin: 20px auto;
+    width:250px;
+    height:250px;
+    border-radius:8px;
+}
+.view_icon{
+    margin: 5px auto;
+    width:35px;
+    height:35px;
+}
+.content_container{    
+    margin: 20px;
+}
+.title{
+    color:hsl(0, 0%, 100%);
+    font-size: 18.5px;
+    font-weight:600;
+    padding-top: 15px;
+}
+.definition{
+    color:hsl(215, 51%, 70%);
+    font-size: 15.5px;
+    font-weight: 300;
+}
+.mini_container{
+    display: flex;
+    justify-content: space-between;
+}
+.ethereum_container{
+    display: flex;
+    justify-content: flex-start;
+    gap: 5px;
+}
+.clock_container{
+    display: flex;
+    justify-content: flex-end;
+    gap:5px;
+}
+.eth_value{
+    color: hsl(178, 100%, 50%);
+    font-size: 13px;
+    font-weight: 400;
+}
+.deadline{
+    color: hsl(215, 51%, 70%);
+    font-size: 13px;
+    font-weight: 400;
+}
+.eth_icon{
+    width: 9px;
+    height:15px;
+}
+.clock_icon{
+    width: 15px;
+    height:15px;
+}
+.separator{
+    border: none;
+    background-color: hsla(215, 52%, 70%, 0.45);
+    height: 0.07px;
+    margin-top:20px;
+}
+.creator{
+    display: flex;
+    align-items: center;
+    gap:15px;
+}
+.creator_avatar{
+    width:30px;
+    height:30px;
+    border:0.5px solid hsl(0, 0%, 100%);
+    border-radius: 100%;
+}
+.creation_of{
+    color: hsl(215, 51%, 70%);
+    font-size: 14px;
+    font-weight: 300;
+}
+.creator_name{
+    color: hsl(0, 0%, 100%);
+}
